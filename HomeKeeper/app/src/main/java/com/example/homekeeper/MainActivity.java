@@ -1,26 +1,19 @@
 package com.example.homekeeper;
 
 import androidx.appcompat.app.AppCompatActivity;
-<<<<<<< HEAD
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-=======
->>>>>>> 4f2699afecf294cecdf61310a4e6c02151fc446d
 
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-<<<<<<< HEAD
     RecyclerView recyclerView;
 
-=======
->>>>>>> 4f2699afecf294cecdf61310a4e6c02151fc446d
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
 
         recyclerView = findViewById(R.id.recyclerView);
 
@@ -36,7 +29,5 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
 
-=======
->>>>>>> 4f2699afecf294cecdf61310a4e6c02151fc446d
     }
 }

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="추천키워드>" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="352dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="#20평대" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:text="#아파트" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#원룸" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:text="#CCTV" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="362dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:text="#수리" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="#고장" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="글쓰기" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/colorPrimaryDark"/>
+
+</LinearLayout>
