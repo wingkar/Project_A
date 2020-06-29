@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myPage"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="마이페이지"/>
+        <item
+            android:id="@+id/nav_howToUse"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="사용법"/>
+        <item
+            android:id="@+id/nav_qNA"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Q n A"/>
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@android:drawable/ic_menu_report_image"
+            android:title="공지사항"/>
+    </group>
+
+    <item
+        android:id="@+id/communicate"
+        android:title="관리자페이지"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_admin"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="회원관리"/>
+
+        </menu>
+    </item>
+
+
+</menu>

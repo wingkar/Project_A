@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="69dp"
+        android:gravity="center"
+        android:text="Kakao"
+        android:textColor="#070000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etkakaoid"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="199dp"
+        android:hint="카카오계정(이메일 또는 전화번호)" />
+
+    <EditText
+        android:id="@+id/etkakaopw"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etkakaoid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="71dp"
+        android:hint="비밀번호" />
+
+    <CheckBox
+        android:id="@+id/KakaocheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etkakaopw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="314dp"
+        android:text="로그인 상태 유지"
+        android:textColor="#575757"
+        android:textColorHighlight="#FFEB3B" />
+
+    <Button
+        android:id="@+id/kakaobutton"
+        android:layout_width="331dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
+        android:background="#FFEB3B"
+        android:text="로그인" />
+
+</RelativeLayout>
