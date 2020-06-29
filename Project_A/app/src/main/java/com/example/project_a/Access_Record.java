@@ -19,7 +19,7 @@ import java.util.ArrayList;
 //fgfgfg90090909090
 public class Access_Record extends AppCompatActivity implements  TextWatcher{
 
-    
+    //hjhjhjhjhj
     RecyclerView recyclerView;
     TextView accessTime;
     EditText editText;
